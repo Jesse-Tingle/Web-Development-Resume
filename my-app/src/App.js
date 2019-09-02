@@ -1,25 +1,30 @@
 import React from 'react';
 import './App.css';
-import TitleCard from './components/TitleCard';
-import ProfileCard from './components/ProfileCard';
-import ContactCard from './components/ContactCard';
-import EducationCard from './components/EducationCard';
-import SkillsCard from './components/SkillsCard';
-import ExperienceCard from './components/ExperienceCard';
-import HobbiesCard from './components/HobbiesCard';
+import TitleCard from './components/TitleComponent/TitleCard';
+import ProfileCard from './components/ProfileComponent/ProfileCard';
+import ContactCard from './components/ContactComponent/ContactCard';
+import EducationCard from './components/EducationComponent/EducationCard';
+import SkillsCard from './components/SkillsComponent/SkillsCard';
+import ExperienceCard from './components/ExperienceComponent/ExperienceCard';
+import HobbiesCard from './components/HobbiesComponent/HobbiesCard';
 
 function App() {
   return (
     <div className="App">
       <TitleCard />
-      <ProfileCard />
+      <div className="content-container">
+        <div className="left-container">
+          <ProfileCard />
+          <ContactCard />
+          <SkillsCard />
+        </div>
 
-      <ContactCard />
-      <SkillsCard />
-      <EducationCard />
-      <ExperienceCard />
-      <HobbiesCard />
-      
+        <div className="right-container">
+          <EducationCard />
+          <ExperienceCard />
+          <HobbiesCard />
+        </div>
+      </div>
     </div>
   );
 }
