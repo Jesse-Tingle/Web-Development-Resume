@@ -24,6 +24,7 @@ Dependencies needed:
 npm install
 ```
 
+
 * [ ] styled-components
 
 Instructions below
