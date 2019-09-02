@@ -24,12 +24,6 @@ Dependencies needed:
 npm install
 ```
 
-* [ ] axios
-
-```
-npm install axios
-```
-
 * [ ] styled-components
 
 Instructions below
