@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import TitleCard from './components/TitleComponent/TitleCard';
-import ProfileCard from './components/ProfileComponent/ProfileCard';
-import ContactCard from './components/ContactComponent/ContactCard';
-import EducationCard from './components/EducationComponent/EducationCard';
-import SkillsCard from './components/SkillsComponent/SkillsCard';
-import ExperienceCard from './components/ExperienceComponent/ExperienceCard';
-import HobbiesCard from './components/HobbiesComponent/HobbiesCard';
+import TitleCard from './components/TitleCard';
+import ProfileCard from './components/ProfileCard';
+import ContactCard from './components/ContactCard';
+import EducationCard from './components/EducationCard';
+import SkillsCard from './components/SkillsCard';
+import ExperienceCard from './components/ExperienceCard';
+import HobbiesCard from './components/HobbiesCard';
 
 function App() {
   return (

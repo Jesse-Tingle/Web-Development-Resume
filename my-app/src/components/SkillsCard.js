@@ -1,11 +1,11 @@
 import React from 'react';
-import {SkillsCardContainer, SkillsH1, SkillsContentContainer, SkillsList, SkillsList2} from './skills-styles';
+import {ContentContainerDiv, SectionTitle, SkillsContentContainer, SkillsList, SkillsList2} from './styles';
 
 
 function SkillsCard (props) {
     return (
-        <SkillsCardContainer>
-            <SkillsH1>SKILLS</SkillsH1>
+        <ContentContainerDiv>
+            <SectionTitle>SKILLS</SectionTitle>
             <SkillsContentContainer>
                 <SkillsList>
                     <li>HTML</li>
@@ -24,7 +24,7 @@ function SkillsCard (props) {
                     <li>Command Line</li>
                 </SkillsList2>
             </SkillsContentContainer>
-        </SkillsCardContainer>
+        </ContentContainerDiv>
     )
 }
 
