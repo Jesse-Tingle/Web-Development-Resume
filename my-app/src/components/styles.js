@@ -43,10 +43,11 @@ export const SubSectionTitle = styled.h4`
     font-family: ${secondaryFont};
     color: ${subHeadingColor};
     font-weight: bold;
+    font-size: 1.2rem;
 `;
 
 export const ContentContainerDiv = styled.div`
-    width: 60%;
+    width: 80%;
     text-align: left;
     margin-left: 9%;
 `;
@@ -56,6 +57,11 @@ export const ContactSubContainers = styled.div`
     align-items: center;
     padding-bottom: 20px;
 `;
+
+export const EducationSubContainer = styled.div`
+
+`;
+
 
 export const SkillsContentContainer = styled.div`
     display: flex;
@@ -83,6 +89,12 @@ export const SkillsList2 = styled.ul`
     padding-left: 50px;
 `;
 
+export const ExperienceListUl = styled.ul`
+    font-family: ${secondaryFont};
+    color: ${subHeadingColor};
+    list-style-type: circle;
+`;
+
 export const Image = styled.img`
     height: 25px;
 `;
@@ -95,5 +107,6 @@ export const ContactInfo = styled.h2`
 `;
 
 export const DateText = styled.p`
-    
+    font-family: ${secondaryFont};
+    color: ${mainFontColor};
 `;

@@ -1,11 +1,13 @@
 import React from 'react';
+import {ContentContainerDiv, SectionTitle, Ptext} from './styles';
+
 
 function HobbiesCard (props) {
     return (
-        <>
-            <h1>Hobbies</h1>
-            <h2>Travel | Photography | Rock Climbing | Reading</h2>
-        </>
+        <ContentContainerDiv>
+            <SectionTitle>HOBBIES</SectionTitle>
+            <Ptext>Travel | Photography | Rock Climbing | Reading</Ptext>
+        </ContentContainerDiv>
     )
 }
 

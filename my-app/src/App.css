@@ -5,3 +5,26 @@
 .content-container {
   display: flex;
 }
+
+.left-container {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+  
+  .right-container {
+    width: 100%;
+  }
+}
