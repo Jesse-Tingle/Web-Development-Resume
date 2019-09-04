@@ -1,5 +1,5 @@
 import React from 'react';
-import {SectionTitle, ContentContainerDiv, ContactSubContainers, Image, ContactInfo} from './styles';
+import {SectionTitle, ContentContainerDiv, ContactSubContainers, Image, InfoLink} from './styles';
 
 
 function ContactCard (props) {
@@ -8,17 +8,17 @@ function ContactCard (props) {
             <SectionTitle>CONTACT</SectionTitle>
             <ContactSubContainers>
                 <Image src={require('../img/phone.png')} alt="phone icon"/>
-                <ContactInfo>+1 (502) 229 - 2383</ContactInfo>
+                <InfoLink>+1 (502) 229 - 2383</InfoLink>
             </ContactSubContainers>
 
             <ContactSubContainers>
                 <Image src={require('../img/email.png')} alt="email icon"/>
-                <ContactInfo>jtingle0@gmail.com</ContactInfo>
+                <InfoLink>jtingle0@gmail.com</InfoLink>
             </ContactSubContainers>
 
             <ContactSubContainers>
                 <Image src={require('../img/location.png')} alt="location icon"/>
-                <ContactInfo>Kentucky, USA</ContactInfo>
+                <InfoLink>Kentucky, USA</InfoLink>
             </ContactSubContainers>
         </ContentContainerDiv>
     )

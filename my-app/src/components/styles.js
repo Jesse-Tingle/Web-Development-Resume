@@ -99,7 +99,7 @@ export const Image = styled.img`
     height: 25px;
 `;
 
-export const ContactInfo = styled.h2`
+export const InfoLink = styled.a`
     padding-left: 5%;
     font-family: ${secondaryFont};
     color: ${subHeadingColor};

@@ -7,6 +7,7 @@ import EducationCard from './components/EducationCard';
 import SkillsCard from './components/SkillsCard';
 import ExperienceCard from './components/ExperienceCard';
 import HobbiesCard from './components/HobbiesCard';
+import SocialsCard from './components/SocialsCard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <ProfileCard />
           <ContactCard />
           <SkillsCard />
+          <SocialsCard />
         </div>
 
         <div className="right-container">
