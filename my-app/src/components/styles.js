@@ -50,6 +50,10 @@ export const ContentContainerDiv = styled.div`
     width: 80%;
     text-align: left;
     margin-left: 9%;
+
+    @media (max-width: 500px) {
+        margin-bottom: -20px;
+    }
 `;
 
 export const ContactSubContainers = styled.div`
@@ -104,6 +108,7 @@ export const InfoLink = styled.a`
     font-family: ${secondaryFont};
     color: ${subHeadingColor};
     font-size: 1rem;
+    width: 100%;
 `;
 
 export const DateText = styled.p`

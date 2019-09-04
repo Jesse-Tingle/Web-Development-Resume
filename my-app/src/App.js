@@ -8,6 +8,7 @@ import SkillsCard from './components/SkillsCard';
 import ExperienceCard from './components/ExperienceCard';
 import HobbiesCard from './components/HobbiesCard';
 import SocialsCard from './components/SocialsCard';
+import {Ptext} from './components/styles';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <ContactCard />
           <SkillsCard />
           <SocialsCard />
+          <div className="print-div">
+            <Ptext>Download a print version of my resume <a href="./Jesse-Tingle-Web Development-Resume.pdf" download>here.</a></Ptext>
+          </div>
         </div>
 
         <div className="right-container">
@@ -26,6 +30,8 @@ function App() {
           <ExperienceCard />
           <HobbiesCard />
         </div>
+
+        
       </div>
     </div>
   );

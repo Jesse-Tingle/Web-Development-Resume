@@ -8,6 +8,7 @@
 
 .left-container {
   width: 50%;
+  margin-left: 1%;
 }
 
 .right-container {
@@ -26,5 +27,13 @@
   
   .right-container {
     width: 100%;
+  }
+
+  .print-div {
+    position: absolute;
+    bottom: -2600px;
+    margin-left: 75px;
+    padding-bottom: 65px;
+    width: 60%;
   }
 }
