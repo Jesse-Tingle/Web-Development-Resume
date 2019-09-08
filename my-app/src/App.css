@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+  margin-left: 1%;
+}
+
+.right-container {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+  
+  .right-container {
+    width: 100%;
+  }
+
+  .print-div {
+    position: absolute;
+    bottom: -2600px;
+    margin-left: 75px;
+    padding-bottom: 65px;
+    width: 60%;
+  }
+}
